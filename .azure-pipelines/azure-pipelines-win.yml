@@ -9,6 +9,8 @@ jobs:
       win:
         CONFIG: win64
         CF_MAX_PY_VER: 37
+  variables:
+    CONDA_BLD_PATH: C:\\bld\\
   timeoutInMinutes: 360
   steps:
     - task: CondaEnvironment@1
