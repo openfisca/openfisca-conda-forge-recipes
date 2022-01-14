@@ -4,6 +4,22 @@ This repo is a holding area for recipes destined for a conda-forge feedstock rep
 
 [![Join the chat at https://gitter.im/conda-forge/conda-forge.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/conda-forge/conda-forge.github.io)
 
+## Conda-forge recipes & OpenFisca
+
+This repository is for first time publishing of an openfisca package to [conda-forge](https://conda-forge.org/).
+
+Publishing steps: 
+1. OpenFisca community opens a PR in this repository to send it to conda-forge. 
+   > See the [openfisca pull requests in conda-forge](https://github.com/conda-forge/staged-recipes/pulls?q=is%3Apr+openfisca+).
+3. The conda-forge CI checks the PR.
+4. After the PR review and validation, conda-forge creates a new repository in its organisation.
+   > See https://github.com/conda-forge/openfisca-core-feedstock for openfisca-core.
+5. OpenFisca community forks the new repository into its organisation. 
+   > See https://github.com/openfisca/openfisca-core-feedstock for openfisca-core.
+
+After step 5, this repository isn't used anymore for the published openfisca repositories. It's kept in openfisca organisation for future openfisca packages that would like to join conda-forge (other countries...). 
+
+To update already published packages, follow feedstock repositories documentation like https://github.com/openfisca/openfisca-core-feedstock/blob/master/recipe/README.md for openfisca-core.
 
 ## Feedstock conversion status
 
